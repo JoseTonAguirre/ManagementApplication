@@ -1,0 +1,12 @@
+﻿<Window x:Class="UserManagementApp.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="200" Width="400">
+    <Grid>
+        <Label Content="Username:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBox x:Name="usernameTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,10,0,0" Width="200"/>
+        <Label Content="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,50,0,0" Width="200"/>
+        <Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,100,0,0" Width="200" Click="LoginButton_Click"/>
+    </Grid>
+</Window>
